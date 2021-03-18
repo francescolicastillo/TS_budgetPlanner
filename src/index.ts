@@ -15,7 +15,7 @@ class BudgetTracker {
     this.initEventListeners();
     this.renderTransactions();
     this.updateBalance();
-  };
+  }; 
 
   loadTransactions() {
     return JSON.parse(localStorage.getItem("transactions") as string) || [];

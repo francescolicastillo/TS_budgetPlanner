@@ -1,2 +1,3 @@
-# TS_blog
-Project based in TypeScript to create a blog
+# TS_budgetPlanner
+
+Project based in TypeScript
