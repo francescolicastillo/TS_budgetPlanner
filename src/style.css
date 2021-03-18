@@ -130,7 +130,7 @@ button:hover {
 
 .delete-btn {
   background-color: var(--danger-color);
-  padding: 7px;
+  padding: 8px;
   font-size: 0.8rem;
   border-radius: 4px;
   transition: all 300ms ease;
