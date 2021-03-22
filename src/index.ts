@@ -6,12 +6,15 @@ interface Transaction {
 };
 
 class BudgetTracker {
+  
+    private transactions;
+
   constructor(
-    private transactions = this.loadTransactions(),
     private form = document.getElementById("transaction-form") as HTMLFormElement,
     private transactionList = document.getElementById("transactionList") as HTMLElement,
     private balance = document.getElementById("balance") as HTMLElement
   ) {
+    this.transactions = this.loadTransactions();
     this.initEventListeners();
     this.renderTransactions();
     this.updateBalance();
