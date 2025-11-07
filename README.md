@@ -6,7 +6,7 @@ Clean, minimal UI with inline editing. Built with TypeScript for type-safe logic
 
 ## Demo
 
-ts-budget-planner.vercel.app
+[ts-budget-planner.vercel.app](https://ts-budget-planner.vercel.app/)
 
 ## Tech-stack
 
